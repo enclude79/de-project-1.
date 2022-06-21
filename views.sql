@@ -1,36 +1,18 @@
-CREATE VIEW analysis.orderitems
-   AS
-	SELECT
-    *
-    from production.orderitems
+CREATE VIEW analysis.orderitems AS
+ 	SELECT  *  FROM production.orderitems
 
-CREATE VIEW analysis.orders
-   AS
-	SELECT
-    *
-    from production.orders
+CREATE VIEW analysis.orders AS
+	SELECT   *  FROM production.orders
 
- CREATE VIEW analysis.orderstatuses
-   AS
-	SELECT
-    *
-    from production.orderstatuses  
+ CREATE VIEW analysis.orderstatuses AS
+ 	SELECT   *  FROM production.orderstatuses  
 
-    CREATE VIEW analysis.orderstatuslog
-   AS
-	SELECT
-    *
-    from production.orderstatuslog 
+ CREATE VIEW analysis.orderstatuslog AS   
+	SELECT  *  FROM production.orderstatuslog 
 
+ CREATE VIEW analysis.products AS  
+ SELECT  *  FROM production.products 
 
-    CREATE VIEW analysis.products  
-   AS
-	SELECT
-    *
-    from production.products
+ CREATE VIEW analysis.users  AS
+ SELECT   *  FROM production.users
 
-       CREATE VIEW analysis.users  
-   AS
-	SELECT
-    *
-    from production.users
